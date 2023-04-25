@@ -15,12 +15,15 @@ const Home: NextPage = () => {
           <link rel="icon" href="/favicon.ico" />
         </Head>
         <main className="bg-blue-900 h-screen">
-        <div className="flex flex-row-2 flex-wrap justify-center">
-          <h1 className="text-white text-5xl text-center w-screen mb-10"> Välkommen till Julias hemsida </h1> 
-          <div className="flex flex-col-3 justify-center space-x-10 row-span-1 mt-30">
+        <div className="flex flex-row-3 flex-wrap justify-center">
+          <h1 className="text-white text-5xl text-center w-screen mb-30"> Välkommen till Julias hemsida </h1> 
+          <div className="flex flex-col-3 justify-center space-x-10 row-span-1 my-20">
           <Image src={nollk} alt="hej" width={200} height={200} quality={10} className="animate-spin"/>
           <Image src={norr} alt="hej" width={200} height={200} quality={10} className="animate-bounce"/>
           <Image src={pu} alt="hej" width={200} height={200} quality={10} className="animate-pulse"/>
+          </div>
+          <div> 
+            <h1 className="text-white text-5xl text-center w-screen mt-20">~design is my passion~</h1> 
           </div>
         </div>
         </main>
