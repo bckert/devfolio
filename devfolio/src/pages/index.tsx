@@ -17,10 +17,10 @@ const Home: NextPage = () => {
         <main className="bg-blue-900 h-screen">
         <div className="flex flex-row-2 flex-wrap justify-center">
           <h1 className="text-white text-5xl text-center w-screen mb-10"> Välkommen till Julias hemsida </h1> 
-          <div className="flex flex-col-3 justify-center space-x-10 row-span-1 mt-20">
+          <div className="flex flex-col-3 justify-center space-x-10 row-span-1 mt-30">
           <Image src={nollk} alt="hej" width={200} height={200} quality={10} className="animate-spin"/>
-          <Image src={norr} alt="hej" width={200} height={200} quality={10} className="animate-spin"/>
-          <Image src={pu} alt="hej" width={200} height={200} quality={10} className="animate-spin"/>
+          <Image src={norr} alt="hej" width={200} height={200} quality={10} className="animate-bounce"/>
+          <Image src={pu} alt="hej" width={200} height={200} quality={10} className="animate-pulse"/>
           </div>
         </div>
         </main>
