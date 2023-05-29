@@ -23,11 +23,24 @@ const Home: NextPage = () => {
           <link rel="icon" href="/favicon.ico" />
 
         </Head>
-        <main className={`${dm.variable} font-sans bg-green-bg h-screen`}>
+        <main className={`${dm.variable} font-sans bg-green-bg h-screen min-w-777 overflow-hidden`}>
         <div className="flex flex-row-3 flex-wrap justify-center ml-20">
-        <NavBar></NavBar>
-          <span className="row-span-1 text-white text-9xl text-left w-screen font-sans mb-30"> Julia </span> 
-          <span className="row-span-1 text-white text-9xl text-left w-screen font-sans mt-5 mb-30"> Böckert </span> 
+          <NavBar></NavBar>
+          <div className="row-span-1 justify-start grid grid-cols-2">
+            <span className=" text-white text-[150px] text-left w-screen font-sans mb-30 ml-20"> Julia </span> 
+            <div>M. Sc student in Interaction Design</div>
+          </div>
+          <div className="row-span-1 justify-start grid grid-cols-2">
+            <span className=" text-white text-[150px] text-left w-screen font-sans mt-5 mb-30 ml-20"> Böckert </span> 
+            <div className="">
+              <button className="border-4 border-black rounded-3xl drop-shadow-xl w-60 h-20 mx-2 text-black text-2xl bg-white">About Me</button>
+              <button className="rounded-3xl drop-shadow-xl w-60 h-20 mx-2 text-white text-2xl bg-black">Latest Project</button>
+            </div>
+          </div>
+          <div className="row-span-1">
+            
+
+          </div>
         </div>
         </main>
     </>
