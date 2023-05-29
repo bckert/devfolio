@@ -32,9 +32,11 @@ const Home: NextPage = () => {
           </div>
           <div className="row-span-1 justify-start grid grid-cols-2">
             <span className=" text-white text-[150px] text-left w-screen font-sans mt-5 mb-30 ml-20"> Böckert </span> 
-            <div className="">
-              <button className="border-4 border-black rounded-3xl drop-shadow-xl w-60 h-20 mx-2 text-black text-2xl bg-white">About Me</button>
-              <button className="rounded-3xl drop-shadow-xl w-60 h-20 mx-2 text-white text-2xl bg-black">Latest Project</button>
+            <div className="col-span-1 flex items-center">
+              <div className="mt-10">
+                <button className="mb-15 border-4 border-black rounded-3xl drop-shadow-xl w-60 h-20 mx-2 text-black text-2xl bg-white">About Me</button>
+                <button className="mb-15 rounded-3xl drop-shadow-xl w-60 h-20 mx-2 text-white text-2xl bg-black">Latest Project</button>
+              </div>
             </div>
           </div>
           <div className="row-span-1">
