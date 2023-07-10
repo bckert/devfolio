@@ -45,7 +45,7 @@ const Home: NextPage = () => {
                   type="button"
                 >
                   GitHub
-                  <i className="fa-brands fa-github ml-5"></i>
+                  <i className="fa-brands fa-github ml-14"></i>
                 </button>
               </a>
               <a href="https://www.linkedin.com/in/julia-bockert/">
@@ -54,7 +54,7 @@ const Home: NextPage = () => {
                   type="button"
                 >
                   LinkedIn
-                  <i className="fa-brands fa-linkedin ml-5"></i>
+                  <i className="fa-brands fa-linkedin ml-10"></i>
                 </button>
               </a>
             </div>
