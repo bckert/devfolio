@@ -5,7 +5,7 @@ export default {
   theme: {
     extend: {
       colors: {
-          'green-bg': '#305733',
+          'green-bg': '#042F10',
       },
       fontFamily: {
         sans: ['var(--font-dm)'],
