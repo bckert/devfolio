@@ -28,7 +28,7 @@ const Home: NextPage = () => {
         />
       </Head>
       <main
-        className={`${dm.variable} min-w-325 h-screen w-screen overflow-hidden bg-green-bg font-sans`}
+        className={`${dm.variable} min-w-325 h-screen w-screen overflow-scroll bg-green-bg font-sans`}
       >
         <div className="grid-row-4 mt-16 grid max-w-full justify-center">
           <span className="row-span-1 mb-5 w-screen text-center font-sans text-7xl text-white md:text-[120px] lg:mb-8 lg:text-[140px]">
