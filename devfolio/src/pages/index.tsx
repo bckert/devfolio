@@ -30,12 +30,13 @@ const Home: NextPage = () => {
       <main
         className={`${dm.variable} min-w-325 h-screen w-screen overflow-scroll bg-green-bg font-sans`}
       >
-        <div className="grid-row-4 mt-16 grid max-w-full justify-center">
+        <NavBar></NavBar>
+        <div className="grid-row-4 mt-28 grid max-w-full justify-center">
           <span className="row-span-1 mb-5 w-screen text-center font-sans text-7xl text-white md:text-[120px] lg:mb-8 lg:text-[140px]">
             Julia Böckert
           </span>
           <span className=" row-span-1 w-screen px-10 text-center font-sans text-xl text-white sm:px-0 md:text-3xl lg:text-[40px]">
-            M. Sc student in Interaction Design & Technologies
+            M. Sc student in Interaction Design
           </span>
           <div className="row-span-1 my-10 flex justify-center">
             <div className="grid grid-rows-2 sm:flex sm:flex-row">
@@ -63,9 +64,20 @@ const Home: NextPage = () => {
             <Image
               src={sunflower}
               alt="sunflower"
-              width={200}
-              height={100}
-              className=""
+              width={100}
+              className="sm:mx-5"
+            />
+            <Image
+              src={sunflower}
+              alt="sunflower"
+              width={100}
+              className="sm:mx-5"
+            />
+            <Image
+              src={sunflower}
+              alt="sunflower"
+              width={100}
+              className="sm:mx-5"
             />
           </div>
         </div>
