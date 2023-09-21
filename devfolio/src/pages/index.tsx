@@ -4,7 +4,7 @@ import Head from "next/head";
 import React from "react";
 
 import Image from "next/image";
-import sunflower from "../images/sunflower.png";
+//import sunflower from "../../public/images/sunflower.png";
 import { DM_Serif_Display } from "next/font/google";
 import NavBar from "component/components/navbar";
 
@@ -61,7 +61,7 @@ const Home: NextPage = () => {
           </div>
           <div className="row-span-1 flex justify-center sm:mt-20">
             <Image
-              src={sunflower}
+              src="/images/sunflower.png"
               alt="sunflower"
               width={200}
               height={100}
