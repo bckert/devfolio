@@ -28,37 +28,47 @@ const Home: NextPage = () => {
         />
       </Head>
       <main
-        className={`${dm.variable} min-w-325 h-screen bg-green-bg font-sans`}
+        className={`${dm.variable} min-w-325 h-screen bg-brown-bg font-sans`}
       >
         <div className="grid-row-4 grid justify-center">
-          <span className="row-span-1 mt-16 mb-5 w-full text-center font-sans text-7xl text-white md:text-[120px] lg:mb-8 lg:text-[140px]">
+          <div className="absolute top-1/5 left-1/2 transform -translate-x-1/2 -translate-y-1/5 w-96 h-96 lg:w-[450px] lg:h-[450px] rounded-full mt-5 bg-yellow-bg z-4"></div>
+          <span className="row-span-1 z-10 mt-24 mb-5 w-full text-center font-sans text-7xl text-off-white-bg md:text-[120px] lg:mb-8 lg:text-[140px]">
             Julia Böckert
           </span>
-          <span className=" row-span-1 w-full px-10 text-center font-sans text-xl text-white sm:px-0 md:text-3xl lg:text-[40px]">
+          <span className="row-span-1 w-full z-10 px-10 text-center font-sans text-xl text-off-white-bg sm:px-0 md:text-3xl lg:text-[40px]">
             M. Sc student in Interaction Design & Technologies
           </span>
           <div className="row-span-1 my-10 flex justify-center">
-            <div className="grid grid-rows-2 sm:flex sm:flex-row">
+            <div className="grid grid-rows-2 sm:flex sm:flex-row"> 
               <a href="https://github.com/bckert">
                 <button
-                  className="mx-2 mb-6 h-12 w-44 rounded-3xl bg-black pl-5 text-left text-xl text-white drop-shadow-xl sm:mb-2"
+                  className="mx-1 sm:mb-6 h-12 w-40 rounded-3xl bg-black pl-5 text-left text-xl text-off-white-bg drop-shadow-xl mb-2 "
                   type="button"
                 >
                   GitHub
-                  <i className="fa-brands fa-github ml-14"></i>
+                  <i className="fa-brands fa-github ml-10"></i>
                 </button>
               </a>
               <a href="https://www.linkedin.com/in/julia-bockert/">
                 <button
-                  className="mx-2 mb-6 h-12 w-44 rounded-3xl bg-black pl-5 text-left text-xl text-white drop-shadow-xl sm:mb-2"
+                  className="mx-1 mb-2 h-12 w-40 rounded-3xl bg-black pl-5 text-left text-xl text-off-white-bg drop-shadow-xl sm:mb-2"
                   type="button"
                 >
                   LinkedIn
-                  <i className="fa-brands fa-linkedin ml-10"></i>
+                  <i className="fa-brands fa-linkedin ml-6"></i>
                 </button>
               </a>
             </div>
           </div>
+
+
+          <div className="grid grid-cols-2 gap-5 justify-center">
+            {/* Gör en fyrkant till en komponent att återanvända */}
+            <div className="w-full col-span-1 aspect-square rounded-xl bg-off-white-bg"></div>
+            <div className="w-full col-span-1 aspect-square rounded-xl bg-off-white-bg"></div>
+          </div>
+
+
           <div className="row-span-1 flex justify-center sm:mt-20">
             <Image
               src="/images/sunflower.png"
