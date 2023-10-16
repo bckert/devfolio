@@ -6,6 +6,9 @@ export default {
     extend: {
       colors: {
           'green-bg': '#042F10',
+          'brown-bg': '#72310D',
+          'off-white-bg': '#FFF9EF',
+          'yellow-bg': '#CA903A'
       },
       fontFamily: {
         sans: ['var(--font-dm)'],
