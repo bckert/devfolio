@@ -4,6 +4,6 @@
 
 @layer base {
     body {
-        @apply bg-brown-bg max-w-full
+        @apply bg-white max-w-full
     }
 }

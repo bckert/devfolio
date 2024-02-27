@@ -28,18 +28,18 @@ const Home: NextPage = () => {
         />
       </Head>
       <main
-        className={`${dm.variable} min-w-325 h-screen bg-brown-bg font-sans`}
+        className={`${dm.variable} min-w-325 h-screen bg-white font-sans`}
       >
         <div className="">
           <div className="grid-row-4 grid justify-center md:mt-24 my-36">
-            <div className="absolute top-1/5 left-1/2 transform -translate-x-1/2 -translate-y-1/5 w-96 h-96 lg:w-[450px] lg:h-[450px] rounded-full mt-5 bg-yellow-bg z-4"></div>
-            <span className="row-span-1 z-10 mt-24 mb-5 w-full text-center font-sans text-7xl text-off-white-bg md:text-[120px] lg:mb-8 lg:text-[140px]">
-              Julia Böckert
+{/*             <div className="absolute top-1/5 left-1/2 transform -translate-x-1/2 -translate-y-1/5 w-96 h-96 lg:w-[450px] lg:h-[450px] rounded-full mt-5 bg-yellow-bg z-4"></div> */}
+            <span className="row-span-1 z-10 mt-6 mb-5 w-full text-center font-sans text-xl text-black md:text-xl lg:mb-8 lg:text-3xl">
+              JULIA BÖCKERT
             </span>
-            <span className="row-span-1 w-full z-10 px-10 text-center font-sans text-xl text-off-white-bg sm:px-0 md:text-3xl lg:text-[40px]">
+            {/* <span className="row-span-1 w-full z-10 px-10 text-center font-sans text-xl text-black sm:px-0 md:text-3xl lg:text-[40px]">
               M. Sc student in Interaction Design & Technologies
-            </span>
-            <div className="row-span-1 my-10 lg:mb-0 flex justify-center">
+            </span> */}
+            {/* <div className="row-span-1 my-10 lg:mb-0 flex justify-center">
               <div className="grid grid-rows-2 sm:flex sm:flex-row"> 
                 <a href="https://github.com/bckert">
                   <button
@@ -60,16 +60,17 @@ const Home: NextPage = () => {
                   </button>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 
 {/* Portfolio */}
-          <div className="grid md:grid-cols-2 mx-20 md:mx-24 grid-cols-1 lg:gap-24 gap-20 justify-center md:mb-10 mt-14 md:mt-0">
+          <div className="grid md:grid-cols-3 mx-20 md:mx-24 grid-cols-1 lg:gap-24 gap-20 justify-center md:mb-10 mt-14 md:mt-0">
             {/* Gör en fyrkant till en komponent att återanvända */}
-            <div className="w-full md:col-span-1 aspect-square rounded-2xl bg-off-white-bg"></div>
+            <div className="w-full md:col-span-1 aspect-square bg-off-white-bg"></div>
               {/* <div></div> */}
-            <div className="w-full md:col-span-1 aspect-square rounded-2xl bg-off-white-bg"></div>
+            <div className="w-full md:col-span-1 aspect-square bg-off-white-bg"></div>
+            <div className="w-full md:col-span-1 aspect-square bg-off-white-bg"></div>
           </div>
 
 
