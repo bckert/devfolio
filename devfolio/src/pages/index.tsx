@@ -30,13 +30,14 @@ const Home: NextPage = () => {
       <main
         className={`${dm.variable} min-w-325 h-screen bg-green-bg font-sans`}
       >
-        <div className="grid-row-4 grid justify-center">
-          <span className="row-span-1 mt-16 mb-5 w-full text-center font-sans text-7xl text-white md:text-[120px] lg:mb-8 lg:text-[140px]">
+        <div className="grid-row-5 mt-16 grid max-w-full justify-center">
+          <span className="row-span-1 mb-5 w-screen text-center font-sans text-7xl text-white md:text-[120px] lg:mb-8 lg:text-[140px]">
             Julia Böckert
           </span>
           <span className=" row-span-1 w-full px-10 text-center font-sans text-xl text-white sm:px-0 md:text-3xl lg:text-[40px]">
             M. Sc student in Interaction Design & Technologies
           </span>
+          <span className="row-span-1 w-screen text-center font-sans text-sm text-white mt-5 italic">Website currently undergoing re-design</span>
           <div className="row-span-1 my-10 flex justify-center">
             <div className="grid grid-rows-2 sm:flex sm:flex-row">
               <a href="https://github.com/bckert">
