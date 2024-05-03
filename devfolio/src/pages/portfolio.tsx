@@ -34,7 +34,7 @@ const Home: NextPage = () => {
           </span>
         </div>
         <div className="grid grid-cols-2 gap-4  sm:flex sm:flex-row sm:my-16">
-          <div className="col-span-1 w-1/2 h-1/2 bg-white text-black mx-10 lg:mx-8 sm:mx-2"> HEJ </div>
+          <div className="col-span-1 w-1/2 h-1/2 bg-white text-black mx-10 lg:mx-8 sm:mx-2"> Test </div>
           <div className="col-span-1 w-1/2 h-1/2 bg-white text-black mx-10 lg:mx-8 sm:mx-2"> HEJ </div>
         </div>
       </main>
