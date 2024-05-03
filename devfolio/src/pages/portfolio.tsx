@@ -6,7 +6,6 @@ import React from "react";
 import Image from "next/image";
 //import sunflower from "../../public/images/sunflower.png";
 import { DM_Serif_Display } from "next/font/google";
-import NavBar from "component/components/navbar";
 
 // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
 const dm = DM_Serif_Display({
