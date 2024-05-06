@@ -9,7 +9,8 @@ const Codesign = () => {
 
  
  <div className="bg-white lg:w-screen lg:h-screen md:w-screen md-h-screen w-full h-screen overflow-scroll">
-    <iframe src="App_Store_Ethics_The_Game.pdf#page=1&zoom=20"  className="w-full h-full"> </iframe>
+    <object data="App_Store_Ethics_The_Game.pdf"  className="w-full h-full overflow-scroll"> </object>
+    
  </div>
  </> 
  );
