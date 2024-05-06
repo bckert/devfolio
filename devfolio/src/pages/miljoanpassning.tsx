@@ -9,7 +9,7 @@ const Miljö = () => {
 
  
  <div className="bg-white lg:w-screen lg:h-screen md:w-screen md-h-screen w-screen h-screen">
-    <iframe src="App_Store_Ethics_The_Game.pdf#page=1&zoom=20"  className="w-full h-full"> </iframe>
+    <iframe src="App_Store_Ethics_The_Game.pdf#page=1&zoom=20"  height={400} width={800}> </iframe>
  </div>
  </> 
  );
