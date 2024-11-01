@@ -70,34 +70,6 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-
-        {/* <div className="flex-row-3 ml-20 flex flex-wrap justify-center">
-          {/* <NavBar></NavBar> */}
-        {/* <div className="row-span-1 grid grid-cols-2 justify-start">
-            <span className=" mb-30 ml-20 w-screen text-left font-sans text-[150px] text-white">
-              {" "}
-              Julia{" "}
-            </span>
-            <div>M. Sc student in Interaction Design</div>
-          </div>
-          <div className="row-span-1 grid grid-cols-2 justify-start">
-            <span className=" mb-30 ml-20 mt-5 w-screen text-left font-sans text-[150px] text-white">
-              {" "}
-              Böckert{" "}
-            </span>
-            <div className="col-span-1 flex items-center">
-              <div className="mt-10">
-                <button className="mb-15 mx-2 h-20 w-60 rounded-3xl border-4 border-black bg-white text-2xl text-black drop-shadow-xl">
-                  About Me
-                </button>
-                <button className="mb-15 mx-2 h-20 w-60 rounded-3xl bg-black text-2xl text-white drop-shadow-xl">
-                  Latest Project
-                </button>
-              </div>
-            </div>
-          </div>
-          <div className="row-span-1"></div>
-        </div> */}
       </main>
     </>
   );
