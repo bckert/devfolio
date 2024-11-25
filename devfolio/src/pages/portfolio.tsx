@@ -20,7 +20,7 @@ const Home: NextPage = () => {
 
  
   <div className="bg-white lg:w-screen lg:h-screen md:w-screen md-h-screen w-full h-screen overflow-scroll">
-    <object data="JB-portfolio.pdf"  className="w-full h-full overflow-scroll"> </object>
+    <object data="combinepdf.pdf"  className="w-full h-full overflow-scroll"> </object>
     
  </div>
     </>
